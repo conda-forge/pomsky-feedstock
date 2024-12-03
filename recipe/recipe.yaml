@@ -1,0 +1,37 @@
+context:
+  version: 0.11
+
+package:
+  name: pomsky
+  version: ${{ version }}
+
+source:
+  url: https://github.com/rulex-rs/pomsky/archive/v${{ version }}.tar.gz
+  sha256: 602cf73d7f7343b8c59ae82973635f5f62f26e2fe341fa990fca5fe504736384
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - ${{ compiler('rust') }}
+    - ${{ compiler('c') }}
+    - ${{ stdlib('c') }}
+    - cargo-bundle-licenses
+
+tests:
+  - script:
+      - pomsky --help
+
+about:
+  license: MIT
+  license_file:
+    - LICENSE-MIT
+    - THIRDPARTY.yml
+  summary: Regular expression language
+  homepage: https://pomsky-lang.org
+  repository: https://github.com/rulex-rs/pomsky
+
+extra:
+  recipe-maintainers:
+    - danielnachun
