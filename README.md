@@ -3,7 +3,7 @@ About pomsky-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pomsky-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pomsky-lang.org
+Home: https://pomsky-lang.org/
 
 Package license: MIT
 
