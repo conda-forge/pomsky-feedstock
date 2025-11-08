@@ -1,5 +1,5 @@
 context:
-  version: 0.11
+  version: "0.12.0"
 
 package:
   name: pomsky
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rulex-rs/pomsky/archive/v${{ version }}.tar.gz
-  sha256: 602cf73d7f7343b8c59ae82973635f5f62f26e2fe341fa990fca5fe504736384
+  sha256: 98d2c3a45824c221554475817c198f7cf0a398ab47fd02083d8a15b18e458daa
 
 build:
   number: 0
