@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rulex-rs/pomsky/archive/v${{ version }}.tar.gz
-  sha256: 98d2c3a45824c221554475817c198f7cf0a398ab47fd02083d8a15b18e458daa
+  sha256: 7a36541b629742940c8ac65d465afc39d2f5fabd2ac2c70e2c6ef8aebccb0f38
 
 build:
   number: 1
